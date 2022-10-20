@@ -56,7 +56,7 @@ export default function TextForm(props) {
             <button className="btn btn-primary mx-2" onClick={handleLowClick} >Convert to Lowercase</button>
             <button className="btn btn-primary mx-2" onClick={handleBoldClick} >Convert to bold</button>
             <button className="btn btn-primary mx-2" onClick={handleUnderlineClick} >Underline</button>
-            <button className="btn btn-primary mx-2" onClick={handleRmSpaceClick} >Remove leading and trailing spaces</button>
+            <button className="btn btn-primary mx-2" onClick={handleRmSpaceClick} >Remove extra spaces</button>
             <button className="btn btn-primary mx-2" onClick={handleCopyClick} >Copy</button>
             <button className="btn btn-primary mx-2" onClick={handleClearClick} >Clear all</button>
         </div>
